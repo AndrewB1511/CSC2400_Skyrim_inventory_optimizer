@@ -1,0 +1,31 @@
+name,weight,value,category,max_copies
+Iron Dagger,2.0,4,one_handed,1
+Iron Sword,9.0,7,one_handed,1
+Steel Sword,10.0,8,one_handed,1
+Elven Sword,13.0,11,one_handed,1
+Glass Sword,14.0,12,one_handed,1
+Orcish War Axe,13.0,10,one_handed,1
+Iron Mace,13.0,9,one_handed,1
+Steel Greatsword,17.0,17,two_handed,1
+Hunting Bow,7.0,7,two_handed,1
+Daedric Sword,16.0,14,one_handed,1
+Daedric Dagger,6.0,11,one_handed,1
+Ebony Mace,19.0,16,one_handed,1
+Daedric Bow,18.0,19,two_handed,1
+Nord Hero Bow,7.0,11,two_handed,1
+Dwarven War Axe,14.0,11,one_handed,1
+Steel Warhammer,25.0,20,two_handed,1
+Iron Battleaxe,20.0,16,two_handed,1
+Dwarven Greatsword,19.0,19,two_handed,1
+Blade of Woe,7.0,12,one_handed,1
+Dawnbreaker,10.0,12,one_handed,1
+Iron Armor Set,46.0,61,armor_set,1
+Leather Armor Set,12.0,52,armor_set,1
+Steel Armor Set,52.0,72,armor_set,1
+Daedric Armor Set,81.0,108,armor_set,1
+Glass Armor Set,13.0,76,armor_set,1
+Iron Shield,12.0,20,shield,1
+Steel Shield,12.0,24,shield,1
+Potion of Minor Healing,0.5,1,potion,5
+Potion of Plentiful Healing,0.5,16,potion,5
+Potion of Ultimate Healing,0.5,40,potion,5
