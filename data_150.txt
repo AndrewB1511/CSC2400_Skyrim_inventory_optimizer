@@ -1,0 +1,151 @@
+name,weight,value,category,max_copies
+Iron Dagger,2.0,4,one_handed,1
+Iron Sword,9.0,7,one_handed,1
+Steel Sword,10.0,8,one_handed,1
+Elven Sword,13.0,11,one_handed,1
+Glass Sword,14.0,12,one_handed,1
+Orcish War Axe,13.0,10,one_handed,1
+Iron Mace,13.0,9,one_handed,1
+Steel Greatsword,17.0,17,two_handed,1
+Hunting Bow,7.0,7,two_handed,1
+Daedric Sword,16.0,14,one_handed,1
+Daedric Dagger,6.0,11,one_handed,1
+Ebony Mace,19.0,16,one_handed,1
+Daedric Bow,18.0,19,two_handed,1
+Nord Hero Bow,7.0,11,two_handed,1
+Dwarven War Axe,14.0,11,one_handed,1
+Steel Warhammer,25.0,20,two_handed,1
+Iron Battleaxe,20.0,16,two_handed,1
+Dwarven Greatsword,19.0,19,two_handed,1
+Blade of Woe,7.0,12,one_handed,1
+Dawnbreaker,10.0,12,one_handed,1
+Elven Mace,17.0,13,one_handed,1
+Daedric Warhammer,31.0,27,two_handed,1
+Dragonbane,14.0,14,one_handed,1
+Nightingale Blade,15.0,14,one_handed,1
+Daedric Greatsword,23.0,24,two_handed,1
+Ebony Bow,16.0,17,two_handed,1
+Silver Sword,7.0,8,one_handed,1
+Mehrunes' Razor,3.0,11,one_handed,1
+Dwarven Battleaxe,23.0,20,two_handed,1
+Steel Mace,14.0,10,one_handed,1
+Elven War Axe,15.0,12,one_handed,1
+Ancient Nord Bow,12.0,8,two_handed,1
+Mace of Molag Bal,18.0,16,one_handed,1
+Daedric Battleaxe,27.0,25,two_handed,1
+Daedric Mace,20.0,16,one_handed,1
+Chillrend,16.0,15,one_handed,1
+Ebony Greatsword,22.0,22,two_handed,1
+Gauldur Blackblade,15.0,11,one_handed,1
+Nightingale Bow,18.0,19,two_handed,1
+Ebony War Axe,17.0,15,one_handed,1
+Rueful Axe,10.0,22,two_handed,1
+Wuuthrad,25.0,25,two_handed,1
+Volendrung,26.0,25,two_handed,1
+Elven Greatsword,20.0,20,two_handed,1
+The Longhammer,18.0,21,two_handed,1
+Falmer Bow,15.0,12,two_handed,1
+Glass Battleaxe,25.0,22,two_handed,1
+Pickaxe,10.0,5,one_handed,1
+Bloodthorn,2.5,8,one_handed,1
+Falmer Supple Bow,20.0,15,two_handed,1
+Ancient Nord War Axe,14.0,9,one_handed,1
+Valdr's Lucky Dagger,2.5,5,one_handed,1
+Glass Greatsword,22.0,21,two_handed,1
+Balgruuf's Greatsword,17.0,17,two_handed,1
+Illusory War Axe,14.0,1,one_handed,1
+Hjalti's Sword,12.0,8,one_handed,1
+Glass Mace,18.0,14,one_handed,1
+Imperial Sword,10.0,8,one_handed,1
+Elven Bow,12.0,13,two_handed,1
+Ghostblade,1.0,8,one_handed,1
+Iron War Axe,11.0,8,one_handed,1
+Headsman's Axe,11.0,17,two_handed,1
+Dwarven Bow,10.0,12,two_handed,1
+Rusty Mace,13.0,7,one_handed,1
+Orcish Sword,11.0,9,one_handed,1
+Balgruuf's War Axe,12.0,9,one_handed,1
+Steel Battleaxe of Fiery Souls,21.0,18,two_handed,1
+Lunar Iron Mace,13.0,9,one_handed,1
+Honed Falmer Sword,18.0,12,one_handed,1
+Orcish Bow,9.0,10,two_handed,1
+Honed Falmer War Axe,21.0,13,one_handed,1
+Dwarven Dagger,3.5,7,one_handed,1
+Orcish Dagger,3.0,6,one_handed,1
+Skyforge Steel Dagger,2.5,8,one_handed,1
+Ceremonial Axe,14.0,9,one_handed,1
+Shiv,2.0,5,one_handed,1
+Glass War Axe,16.0,14,one_handed,1
+Honed Draugr War Axe,16.0,11,one_handed,1
+Angi's Bow,7.0,7,two_handed,1
+Ulfric's War Axe,12.0,9,one_handed,1
+Steel Battleaxe,21.0,18,two_handed,1
+Forsworn Bow,11.0,12,two_handed,1
+Honed Ancient Nord Sword,15.0,11,one_handed,1
+Lunar Steel Mace,14.0,10,one_handed,1
+Queen Freydis's Sword,10.0,8,one_handed,1
+Ebony Sword,15.0,13,one_handed,1
+Ancient Nord Battle Axe,22.0,18,two_handed,1
+Steel Dagger,2.5,5,one_handed,1
+Ceremonial Sword,12.0,8,one_handed,1
+Imperial Bow,8.0,9,two_handed,1
+Ancient Nord Greatsword,18.0,17,two_handed,1
+Forsworn Axe,15.0,11,one_handed,1
+Lunar Steel Sword,10.0,8,one_handed,1
+Borvir's Dagger,4.0,8,one_handed,1
+The Woodsman's Friend,20.0,17,two_handed,1
+Okin,11.0,12,one_handed,1
+Dwarven Sword,12.0,10,one_handed,1
+Ebony Battleaxe,26.0,23,two_handed,1
+Herebane's Courage,13.0,11,one_handed,1
+Rundi's Dagger,2.5,5,one_handed,1
+Poacher's Axe,10.0,5,one_handed,1
+Skyforge Steel Sword,10.0,11,one_handed,1
+Falmer Sword,18.0,10,one_handed,1
+Orcish Battleaxe,25.0,19,two_handed,1
+Grimsever,14.0,12,one_handed,1
+Daedric War Axe,18.0,15,one_handed,1
+Silver Greatsword,12.0,17,two_handed,1
+Froki's Bow,5.0,6,two_handed,1
+Keening,4.0,8,one_handed,1
+Dravin's Bow,7.0,7,two_handed,1
+Ancient Nord Sword,12.0,8,one_handed,1
+Glass Dagger,4.5,9,one_handed,1
+Nord Hero Greatsword,16.0,20,two_handed,1
+Iron Armor Set,46.0,61,armor_set,1
+Leather Armor Set,12.0,52,armor_set,1
+Steel Armor Set,52.0,72,armor_set,1
+Daedric Armor Set,81.0,108,armor_set,1
+Glass Armor Set,13.0,76,armor_set,1
+Orcish Armor Set,57.0,90,armor_set,1
+Dragonplate Armor Set,64.0,102,armor_set,1
+Ancient Shrouded Armor Set,7.5,72,armor_set,1
+Dwarven Armor Set,75.0,78,armor_set,1
+Nightingale Armor Set,18.0,69,armor_set,1
+Ebony Armor Set,62.0,96,armor_set,1
+Dragonscale Armor Set,20.0,82,armor_set,1
+Imperial Light Armor Set,12.0,48,armor_set,1
+Stormcloak Officer Armor Set,14.0,53,armor_set,1
+Imperial Armor Set,52.0,62,armor_set,1
+Elven Armor Set,7.0,61,armor_set,1
+Wolf Armor Set,32.0,72,armor_set,1
+Hide Armor Set,9.0,40,armor_set,1
+Guild Master's Armor Set,17.0,76,armor_set,1
+Penitus Oculatus Armor Set,9.0,46,armor_set,1
+Forsworn Armor Set,12.0,55,armor_set,1
+Linwe's Armor Set,14.0,69,armor_set,1
+Thieves Guild Armor Set,11.0,64,armor_set,1
+Fur Armor Set,11.0,44,armor_set,1
+Iron Shield,12.0,20,shield,1
+Steel Shield,12.0,24,shield,1
+Daedric Shield,15.0,36,shield,1
+Ebony Shield,14.0,32,shield,1
+Dragonplate Shield,8.0,34,shield,1
+Dwarven Shield,12.0,26,shield,1
+Elven Shield,4.0,21,shield,1
+Dragonscale Shield,6.0,29,shield,1
+Glass Shield,6.0,27,shield,1
+Orcish Shield,14.0,30,shield,1
+Potion of Minor Healing,0.5,0,potion,5
+Potion of Plentiful Healing,0.5,0,potion,5
+Potion of Ultimate Healing,0.5,0,potion,5
