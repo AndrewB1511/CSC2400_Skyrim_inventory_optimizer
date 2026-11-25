@@ -1,4 +1,5 @@
 //created with help from claude ai sonnet version 5.5
+//created with help from claude ai sonnet version 5.5
 #include <algorithm>
 #include <cstdlib>
 #include <fstream>
@@ -126,14 +127,13 @@ static Counts countCategories(const std::vector<int>& g) {
     return c;
 }
 
-// 1 armor max; hands used (two-handed = 2, shield = 1, one-handed = 1) <= 2; 1 shield max.
+// Creating the func that checks and ensures loadouts are valid
 static bool loadoutOk(const Counts& c) {
     return c.armor <= 1 && c.shield <= 1 && 2 * c.two + c.shield + c.one <= 2;
 }
 
-// Make an individual valid: first fix loadout violations (armor / hands),
-// then drop random copies until it fits the weight limit, then top it up
-// with random items that still fit both the weight and the loadout rules.
+
+//creating the repair fun that fixs possible solutions for loadout violations drops items that break then tops up space with random itmes that no longer break loadout rules.
 static void repairAndFill(Individual& ind, const std::vector<int>& order) {
     Counts c = countCategories(ind.genes);
 
@@ -213,7 +213,7 @@ int main(int argc, char** argv) {
     int generations = 500;
     double mutRate = 0.02;
     unsigned seed = std::random_device{}();
-
+ 
     if (argc >= 2) {
         path = argv[1];
         if (argc > 2) popSize = std::atoi(argv[2]);
@@ -225,69 +225,71 @@ int main(int argc, char** argv) {
         std::getline(std::cin, path);
         path = trim(path);
     }
-
+ 
     if (popSize < 4 || generations < 1 || mutRate < 0 || mutRate > 1) {
         std::cerr << "Error: invalid parameters.\n";
         return 1;
     }
+    auto startTime = std::chrono::steady_clock::now();
+ 
     if (!loadItems(path)) return 1;
-
+ 
     rng.seed(seed);
     const size_t n = items.size();
     std::vector<int> order(n);
     std::iota(order.begin(), order.end(), 0);
-
+ 
     std::cout << "Loaded " << n << " items from " << path << "\n"
               << "Capacity: " << capacity << " | population: " << popSize
               << " | generations: " << generations << " | mutation: " << mutRate
               << " | seed: " << seed << "\n\n";
-
+ 
     std::vector<Individual> pop;
     pop.reserve(popSize);
     for (int i = 0; i < popSize; ++i) pop.push_back(randomIndividual(order));
-
+ 
     auto bestOf = [](const std::vector<Individual>& p) {
         return std::max_element(p.begin(), p.end(),
                                 [](const Individual& a, const Individual& b) { return a.value < b.value; });
     };
-
+ 
     Individual best = *bestOf(pop);
     const int elites = std::max(1, popSize / 20);
     const int printEvery = std::max(1, generations / 10);
-
+ 
     for (int gen = 1; gen <= generations; ++gen) {
         std::sort(pop.begin(), pop.end(),
                   [](const Individual& a, const Individual& b) { return a.value > b.value; });
-
+ 
         std::vector<Individual> next(pop.begin(), pop.begin() + elites);  // elitism
         while ((int)next.size() < popSize) {
             const Individual& p1 = tournament(pop, 3);
             const Individual& p2 = tournament(pop, 3);
-
+ 
             Individual child;
             child.genes.resize(n);
             for (size_t i = 0; i < n; ++i)  // uniform crossover
                 child.genes[i] = (rng() & 1) ? p1.genes[i] : p2.genes[i];
-
+ 
             std::uniform_real_distribution<double> U(0.0, 1.0);
             for (size_t i = 0; i < n; ++i) {  // mutation
                 int mx = geneMax(i);
                 if (mx > 0 && U(rng) < mutRate) child.genes[i] = rng() % (mx + 1);
             }
-
+ 
             repairAndFill(child, order);
             next.push_back(std::move(child));
         }
         pop = std::move(next);
-
+ 
         const Individual& gb = *bestOf(pop);
         if (gb.value > best.value) best = gb;
-
+ 
         if (gen == 1 || gen % printEvery == 0 || gen == generations)
             std::cout << "Gen " << std::setw(5) << gen << "  best value: " << best.value
                       << "  weight: " << best.weight << "\n";
     }
-
+ 
     std::cout << "\n=== Best solution ===\n";
     std::cout << std::fixed << std::setprecision(1);
     std::cout << "Total value : " << best.value << "\n";
@@ -298,5 +300,10 @@ int main(int argc, char** argv) {
             std::cout << "  " << best.genes[i] << " x " << items[i].name << " (" << items[i].category
                       << ", w=" << items[i].weight << ", v=" << items[i].value << ")\n";
     }
+ 
+    auto endTime = std::chrono::steady_clock::now();
+    double seconds = std::chrono::duration<double>(endTime - startTime).count();
+    std::cout << "\nRuntime: " << std::fixed << std::setprecision(3) << seconds << " seconds ("
+              << seconds * 1000.0 << " ms)\n";
     return 0;
 }
