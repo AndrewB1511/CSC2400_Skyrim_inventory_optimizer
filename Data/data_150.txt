@@ -148,4 +148,4 @@ Glass Shield,6.0,27,shield,1
 Orcish Shield,14.0,30,shield,1
 Potion of Minor Healing,0.5,1,potion,5
 Potion of Plentiful Healing,0.5,16,potion,5
-Potion of Ultimate Healing,0.5,50,potion,5
+Potion of Ultimate Healing,0.5,40,potion,5
