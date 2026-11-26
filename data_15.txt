@@ -11,6 +11,6 @@ Iron Armor Set,46.0,61,armor_set,1
 Leather Armor Set,12.0,52,armor_set,1
 Steel Armor Set,52.0,72,armor_set,1
 Iron Shield,12.0,20,shield,1
-Potion of Minor Healing,0.5,0,potion,5
-Potion of Plentiful Healing,0.5,0,potion,5
-Potion of Ultimate Healing,0.5,0,potion,5
+Potion of Minor Healing,0.5,1,potion,5
+Potion of Plentiful Healing,0.5,16,potion,5
+Potion of Ultimate Healing,0.5,40,potion,5
