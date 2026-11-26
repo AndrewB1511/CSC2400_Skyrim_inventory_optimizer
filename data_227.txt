@@ -223,6 +223,6 @@ Banded Iron Shield,12.0,22,shield,1
 Imperial Light Shield,4.0,19,shield,1
 Hrolfdir's Shield,12.0,24,shield,1
 Roggi's Ancestral Shield,12.0,25,shield,1
-Potion of Minor Healing,0.5,0,potion,5
-Potion of Plentiful Healing,0.5,0,potion,5
-Potion of Ultimate Healing,0.5,0,potion,5
+Potion of Minor Healing,0.5,1,potion,5
+Potion of Plentiful Healing,0.5,16,potion,5
+Potion of Ultimate Healing,0.5,40,potion,5
