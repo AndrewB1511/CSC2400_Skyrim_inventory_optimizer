@@ -146,6 +146,6 @@ Elven Shield,4.0,21,shield,1
 Dragonscale Shield,6.0,29,shield,1
 Glass Shield,6.0,27,shield,1
 Orcish Shield,14.0,30,shield,1
-Potion of Minor Healing,0.5,0,potion,5
-Potion of Plentiful Healing,0.5,0,potion,5
-Potion of Ultimate Healing,0.5,0,potion,5
+Potion of Minor Healing,0.5,1,potion,5
+Potion of Plentiful Healing,0.5,16,potion,5
+Potion of Ultimate Healing,0.5,40,potion,5
